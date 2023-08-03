@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-size: 62.5%;
+}
+@layer base{
+    h1{
+        @apply text-[4rem] text-white font-[600];
+    }
+    h6{
+        @apply text-[1.8rem] text-gray-300 font-[500];
+    }
+    .nav-a{
+       @apply text-[1.6rem] text-white hover:bg-gray-400 duration-500 px-4 pb-2 pt-1.5 rounded;
+    }
+    .common-btn{
+        @apply  capitalize text-[2rem] text-white font-semibold leading-none inline-block px-24 pt-3 pb-4 border-2 rounded-lg;
+    }
+    .hero{
+        @apply w-full h-screen;
+    }
+}
