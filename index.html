@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- box-icon--------- -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- tailwind-link------->
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+    <header class="fixed w-full z-30">
+        <!-- top-header----- -->
+        <div class="tcl-area lg:flex-row items-center text-center">
+            <span class="tax-credit text-[2rem] text-white leading-[.5]">$7,500 Federal Tax Credit</span>
+            <span class="model text-[1.6rem] text-white leading-[.5] hidden md:block">
+                Available for new Model 3 and Model Y. Reductions to tax credit likely after Dec 31.
+            </span>
+            <span class="details">
+                <a href="#" class=" text-[1.6rem] text-white underline leading-[.5]">Details</a>
+            </span>
+        </div>
+        <!-- nav------- -->
+        <nav class="bg-transparent">
+            <div class="nav-wrapper py-[1.6rem] max-w[1850px] px-[1.5rem] mx-[3.5rem] m-auto flex justify-between items-center">
+                <!-- logo---- -->
+                <span class="logo inline-block">
+                    <a href="#">
+                        <svg class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon w-[140px] text-white" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z" fill="currentColor">
+                           </path>
+                        </svg>
+                    </a>
+                </span>
+                <!-- nav-items------- -->
+                <ul class="menu-items lg:flex ">
+                    <li><a href="#hero" class="nav-a">Vehicles</a></li>
+                    <li><a href="#model-x" class="nav-a">Energy</a></li>
+                    <li><a href="#accessories" class="nav-a">Charging</a></li>
+                    <li><a href="#model-Y" class="nav-a">Discover</a></li>
+                    <li><a href="#solar-pannel" class="nav-a">Shop</a></li>
+                    <li><a href="#" class="nav-a block lg:hidden bg-slate-300">Menu</a></li>
+                </ul>
+                <!-- nav-links----- -->
+                <div class="nav-icon w-[13.4rem] text-right hidden lg:block">
+                    <a href="#"><i class='bx bx-help-circle text-4xl inline-block text-white'></i></a>
+                    <a href="#"><i class='bx bx-globe text-4xl mx-2.5 inline-block text-white'></i></a>
+                    <a href="#"><i class='bx bx-user-circle text-4xl inline-block text-white' ></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="snap-feature">
+        <!-- hero-section------------------->
+        <section id="hero" class="relative car-section">
+            <div>
+                <video class="tcl-asset tcl-video__asset lozad tcl-objectfit-position tcl-objectfit-position--center visible-no-fade-in h-screen w-full object-cover" preload="auto" playsinline="" data-autoplay-desktop="true" data-autoplay-portrait="true" data-autoplay-mobile="true" data-play-on-hover="false" muted="" loop="" poster="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Demo-Drive-Desktop-Poster-NA.jpg" data-poster-desktop="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Demo-Drive-Desktop-Poster-NA.jpg" data-poster-portrait="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Demo-Drive-Desktop-Poster-NA.jpg" data-poster-mobile="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Demo-Drive-Mobile-Poster-NA.jpg" data-src-desktop="https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto/Homepage-Demo-Drive-Desktop-NA.mp4" data-src-portrait="https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto/Homepage-Demo-Drive-Desktop-NA.mp4" data-src-mobile="https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto/Homepage-Demo-Drive-Mobile-NA.mp4" data-src="https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto/Homepage-Demo-Drive-Desktop-NA.mp4" data-object-fit="true" src="https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto/Homepage-Demo-Drive-Desktop-NA.mp4" data-loaded="true" autoplay=""></video>
+            </div>
+            <div class="hero-details bg-[#0000004d] w-full h-screen absolute top-0 left-0 text-center flex flex-col justify-between pt-[16rem] pb-[8rem]">
+                <span>
+                    <h1>Experience Tesla</h1>
+                    <h6> Schedule a Demo Drive Today</h6>
+                </span>
+                <div class="demobtn">
+                    <a href="#" class="common-btn">demo drive</a>
+                </div>
+            </div>
+        </section>
+
+        <!--hero-section model-X--------- -->
+        <section id="model-x" class="relative car-section">
+            <div class="w-full h-screen relative">
+                <img src="./src/images/sopImg2.jpg" alt="" class="w-full h-full object-cover">
+                <div class="model-inner">
+                    <span>
+                        <h1 class="text-black">Model X</h1>
+                        <h6 class="border-b-2 inline-block">Explore Inventory</h6>
+                    </span>
+                    <div class="demobtn">
+                        <a href="#" class="common-btn text-black bg-white">Explore Inventory</a>
+                        <a href="#" class="common-btn bg-black text-white">Custom Order</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--hero-section model-Y--------- -->
+        <section id="model-Y" class="relative car-section">
+            <div class="relative">
+                <img src="./src/images/sopImg3.jfif" alt="" class="w-full h-screen object-cover">
+                <div class="model-inner">
+                    <span>
+                        <h1 class="text-white">Model Y</h1>
+                        <h6 class="text-black">Starting at $40,240</h6>
+                        <h6 class="text-black">After Federal Tax Credit</h6>
+                    </span>
+                    <div class="demobtn">
+                        <a href="#" class="common-btn bg-[#000000da] text-white">Custom Order</a>
+                        <a href="#" class="common-btn text-black bg-white">Explore Inventory</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--hero-section model-Y--------- -->
+        <section id="power-wall" class="relative car-section">
+            <div class="relative">
+                <img src="./src/images/Powerwall.avif" alt="" class="w-full h-screen object-cover">
+                <div class="model-inner">
+                    <span>
+                        <h1 class="text-white">Powerwall</h1>
+                    </span>
+                    <div class="demobtn">
+                        <a href="#" class="common-btn bg-[#000000da] text-white">Order Now</a>
+                        <a href="#" class="common-btn text-black bg-white">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--hero-sectionAccesseries--------->
+        <section id="accessories" class="relative car-section">
+            <div class="relative">
+                <img src="./src/images/accessories.jpg" alt="" class="w-full h-screen object-cover">
+                <div class="model-inner">
+                    <span>
+                        <h1 class="text-white">Accessories</h1>
+                    </span>
+                    <div class="demobtn">
+                        <a href="#" class="common-btn text-black bg-white">Order Now</a>
+                        <a href="#" class="common-btn bg-[#000000da] text-white">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--hero-section- solar pannel------>
+        <section id="solar-pannel" class=" relative car-section">
+            <div class="relative">
+                <img src="./src/images/solar.jfif" alt="" class="w-full h-screen object-cover">
+                <div class="model-inner">
+                    <span>
+                        <h1 class="text-white">Solar Panels</h1>
+                        <h6 class="text-black">Schedule a Virtual Consultation</h6>
+                    </span>
+                    <div class="demobtn">
+                        <a href="#" class="common-btn text-black bg-white">Shope now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- <footer class="bg-pink-300 py-28">
+        <div class="footer flex justify-center items-end gap-8 z-10">
+            <a href="https://www.tesla.com/" target="_blank" class="text-white text-[1.6rem] hover:text-purple-600 font-medium">Tesla © 2023</a>
+            <a href="#" class="text-white text-[1.6rem] hover:text-purple-600 font-medium">Privacy & Legal</a>
+            <a href="#" class="text-white text-[1.6rem] hover:text-purple-600 font-medium">Vehicle Recalls</a>
+            <a href="#" class="text-white text-[1.6rem] hover:text-purple-600 font-medium">Contact</a>
+            <a href="#" class="text-white text-[1.6rem] hover:text-purple-600 font-medium">News</a>
+            <a href="#" class="text-white text-[1.6rem] hover:text-purple-600 font-medium">Get Updates</a>
+            <a href="#" class="text-white text-[1.6rem] hover:text-purple-600 font-medium">Locations</a>
+        </div>
+    </footer> -->
+</body>
+</html>

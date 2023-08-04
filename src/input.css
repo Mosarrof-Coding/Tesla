@@ -5,20 +5,41 @@
 html{
     font-size: 62.5%;
 }
-@layer base{
+@media (max-width: 600px) {
+    html{
+        font-size: 50%;
+    }
+}
+@layer components{
+    .snap-feature{
+        @apply snap-mandatory snap-y overflow-y-scroll h-screen transition-all duration-1000 scroll-smooth;
+    }
+    .car-section{
+        @apply snap-start snap-always;
+    }
     h1{
         @apply text-[4rem] text-white font-[600];
     }
     h6{
         @apply text-[1.8rem] text-gray-300 font-[500];
     }
+    /* header------- */
+    .tcl-area{
+        @apply max-w-full py-[1.8rem] bg-gradient-to-r from-gray-700 to-black flex flex-col justify-center items-center gap-5;
+    }
     .nav-a{
-       @apply text-[1.6rem] text-white hover:bg-gray-400 duration-500 px-4 pb-2 pt-1.5 rounded;
+       @apply text-[1.6rem] font-medium text-white hover:bg-gray-400 duration-500 px-[1.6rem] pb-2 pt-1.5 rounded hidden lg:block;
+    }
+    .menu-items{
+        @apply flex gap-1 justify-center items-center;
+    }
+    .model-inner{
+        @apply bg-[#3815893c] w-full h-screen absolute top-0 left-0 text-center flex flex-col justify-between pt-[16rem] pb-[6rem];
+    }
+    .demobtn{
+        @apply flex flex-col lg:flex-row items-center justify-center gap-6;
     }
     .common-btn{
-        @apply  capitalize text-[2rem] text-white font-semibold leading-none inline-block px-24 pt-3 pb-4 border-2 rounded-lg;
-    }
-    .hero{
-        @apply w-full h-screen;
+        @apply  capitalize text-[1.6rem] text-white font-semibold leading-none inline-block w-fit px-32 pt-3.5 pb-4 border-2 rounded-lg;
     }
 }
